@@ -62,6 +62,7 @@ export default {
         vrButton:false, // 如果设置为true，将创建VRButton小部件。
         scene3DOnly: true, // 每个几何实例仅以3D渲染以节省GPU内存
         infoBox: false, //隐藏点击要素后的提示信息
+        terrainProvider: Cesium.createWorldTerrain() // 在线加载地形
       })
       // const center = Cartesian3.fromDegrees(
       //   (minWGS84[0] + maxWGS84[0]) / 2,
